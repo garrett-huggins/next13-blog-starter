@@ -27,8 +27,8 @@ export default function PostHero() {
           style={{ width: "100%" }}
         />
 
-        <div className="grid grid-cols-2">
-          <div>
+        <div className="grid mt-4 md:grid-cols-2 grid-cols-1">
+          <div className="mb-2">
             <p className="font-semibold text-xl group-hover:underline">
               {heroPost.title}
             </p>
