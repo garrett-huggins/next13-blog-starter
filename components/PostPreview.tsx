@@ -20,7 +20,7 @@ export default function PostPreview({ post }: { post: Items }) {
           {post.title}
         </p>
         <DateFormatter dateString={post.date} />
-        <div>{post.excerpt}</div>
+        <p>{post.excerpt}</p>
       </div>
     </Link>
   );
