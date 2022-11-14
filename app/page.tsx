@@ -17,6 +17,8 @@ export default function Home() {
           </p>
         </div>
 
+        <div className="h-12"></div>
+
         <PostHero />
 
         <div className="h-16"></div>
