@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="container mx-auto px-5">
       <main>
-        <div className="space-y-4 mb-10">
+        <div className="space-y-4">
           <h1 className="text-center text-5xl">NextJS 13 Blog</h1>
           <p className="text-center text-xl">
             Welcome to a dynamic markdown blog using NextJS 13.
@@ -34,9 +34,8 @@ export default function Home() {
           href="/blog"
           className="text-3xl hover:text-gray-300 hover:underline"
         >
-          <p>Read More{" -> "}</p>
+          Read More{" -> "}
         </Link>
-        <div className="h-16"></div>
       </main>
     </div>
   );

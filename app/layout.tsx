@@ -21,6 +21,7 @@ export default function RootLayout({
           className="h-12 bg-gradient-to-t from-transparent to-neutral-800"
         ></div>
         {children}
+        <div id="page-bottom-spacer" className="h-16"></div>
       </body>
     </html>
   );
